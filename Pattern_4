@@ -1,0 +1,24 @@
+OUTPUT:Program 4:
+11111
+00000
+33333
+00000
+55555
+
+class Pattern_4 {
+    public static void main(String[] args) {
+        System.out.println("Program 4:\n");
+        int n=5,i,j;
+        for(i=1;i<=n;i++)
+        {
+            for(j=1;j<=n;j++)
+            {
+                if(i%2==0)                              // the even number line is 0
+                  System.out.print("0");
+                else
+                 System.out.print(i);
+            }
+            System.out.println();
+        }
+    }
+}
