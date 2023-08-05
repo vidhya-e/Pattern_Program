@@ -1,0 +1,24 @@
+OUTPUT: program 7
+10000
+10000
+10000
+10000
+10000
+
+class Pattern_7 {
+    public static void main(String[] args) {
+        System.out.println("program 7");
+        int n=5,i,j;
+        for(i=1;i<=n;i++)
+        {
+            for(j=1;j<=n;j++)
+            {
+                if(j==1)
+                System.out.print("1");
+                else
+                System.out.print("0");
+            }
+            System.out.println();
+        }
+    }
+}
