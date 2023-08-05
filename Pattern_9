@@ -1,0 +1,25 @@
+OUTPUT:program 9
+11111
+10001
+10001
+10001
+11111
+
+class Pattern_9 {
+    public static void main(String[] args) {
+        System.out.println("program 9");
+        int n=5,i,j;
+        for(i=1;i<=n;i++)
+        {
+            for(j=1;j<=n;j++)
+            {
+                if(j==1 || i==n || i==1 || j==n)
+                System.out.print("1");
+                else
+                System.out.print("0");
+            }
+            System.out.println();
+        }
+
+    }
+}
