@@ -1,0 +1,25 @@
+program 16
+00100
+00100
+11111
+00100
+00100
+
+class Pattern_16 {
+    public static void main(String[] args) {
+        System.out.println("program 16");
+        int n=5,i,j;
+        for(i=1;i<=n;i++)
+        {
+            for(j=1;j<=n;j++)
+            {
+                if(j==(n/2+1) || i==(n/2+1))
+                   System.out.print("1");
+                else
+                   System.out.print("0");
+            }
+          System.out.println();
+        }
+
+    }
+}
