@@ -1,0 +1,26 @@
+OUTPUT: program 14
+10001
+01010
+00100
+01010
+10001
+
+class Pattern_14 {                                             // combination of Pattern_12 and Pattern_13
+    public static void main(String[] args) {
+        System.out.println("program 14");
+        int n=5,i,j,num=n;
+        for(i=1;i<=n;i++)
+        {
+            for(j=1;j<=n;j++)
+            {
+                if(i==j || j==num)
+                System.out.print("1");
+                else
+                System.out.print("0");
+            }
+            num--;
+            System.out.println();
+        }
+
+    }
+}
