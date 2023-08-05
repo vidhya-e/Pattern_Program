@@ -1,0 +1,24 @@
+OUTPUT:program 18
+12345
+23455
+34555
+45555
+55555
+
+class Pattern_18 {
+    public static void main(String[] args) {
+        System.out.println("program 18");
+        int n=5,i,j;
+        for(i=0;i<n;i++)
+        {
+            for(j=1;j<=n;j++)
+            {
+                if(j+i<=n)
+                System.out.print(j+i);
+                else
+                System.out.print(n);
+            }
+             System.out.println();
+        }
+    }
+}
