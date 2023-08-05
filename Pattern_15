@@ -1,0 +1,35 @@
+OUTPUT: program 15
+10101
+01010
+10101
+01010
+10101
+
+class Pattern_15 {
+    public static void main(String[] args) {
+        System.out.println("program 15");
+        int n=5,i,j;
+        for(i=1;i<=5;i++)
+        {
+            for(j=1;j<=5;j++)
+            {
+                if(i%2==0)                  // for even number line
+                {
+                   if(j%2==0)
+                   System.out.print("1");
+                   else
+                   System.out.print("0");
+                }
+                else                  // for odd number line
+                {
+                    if(j%2==0)
+                    System.out.print("0");
+                    else
+                    System.out.print("1");
+                }
+            }
+            System.out.println();
+        }
+
+    }
+}
