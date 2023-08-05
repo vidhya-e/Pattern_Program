@@ -1,0 +1,22 @@
+OUTPUT: program 20!
+55555
+4444
+333
+22
+1
+
+class Pattern_20 {
+    public static void main(String[] args) {
+        System.out.println("program 20!");
+        int n=5,i,j;
+        
+        for(i=n;i>=1;i--)
+        {
+            for(j=i;j>=1;j--)
+            {
+                System.out.print(i);
+            }
+            System.out.println();
+        }
+    }
+}
