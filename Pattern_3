@@ -1,0 +1,21 @@
+OUTPUT:  Program 3:
+12345
+12345
+12345
+12345
+12345
+
+class Pattern_3 {
+    public static void main(String[] args) {
+        System.out.println("Program 3:\n");
+        int n=5,i,j;
+        
+        for(i=1;i<=n;i++)
+        {
+            for(j=1;j<=n;j++)
+              System.out.print(j);
+            System.out.println();
+        }
+        
+    }
+}
