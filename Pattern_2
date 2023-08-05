@@ -1,0 +1,21 @@
+OUTPUT:  Program 2:
+11111
+22222
+33333
+44444
+55555
+
+class Pattern_2 {
+    public static void main(String[] args) {
+        System.out.println("Program 2:\n");
+        int n=5,i,j;
+        
+        for(i=1;i<=n;i++)
+        {
+            for(j=1;j<=n;j++)
+              System.out.print(i);
+            System.out.println();
+        }
+        
+    }
+}
