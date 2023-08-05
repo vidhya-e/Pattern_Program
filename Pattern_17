@@ -1,0 +1,21 @@
+OUTPUT:program 17
+12345
+23456
+34567
+45678
+56789
+
+class Pattern_17 {
+    public static void main(String[] args) {
+        System.out.println("program 17");
+        int n=5,i,j;
+        for(i=0;i<n;i++)
+        {
+            for(j=1;j<=n;j++)
+            {
+                System.out.print(j+i);
+            }
+           System.out.println();
+        }
+   }
+}
