@@ -1,0 +1,25 @@
+program 11
+10000
+02000
+00300
+00040
+00005
+
+class Pattern_11 {
+    public static void main(String[] args) {
+        System.out.println("program 11");
+        int n=5,i,j;
+        for(i=1;i<=n;i++)
+        {
+            for(j=1;j<=n;j++)
+            {
+                if(i==j)
+                System.out.print(i);
+                else
+                System.out.print("0");
+            }
+            System.out.println();
+        }
+
+    }
+}
