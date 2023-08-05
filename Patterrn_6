@@ -1,0 +1,24 @@
+OUTPUT:program 6
+01010
+01010
+01010
+01010
+01010
+
+class Patterrn_6 {                                            // similar to Pattern_5
+    public static void main(String[] args) {
+        System.out.println("program 6");
+        int n=5,i,j;
+        for(i=1;i<=n;i++)
+        {
+            for(j=1;j<=n;j++)
+            {
+                if(j%2==0)                      // If even number of the number in a line then 1.
+                System.out.print("1");
+                else
+                System.out.print("0");
+            }
+            System.out.println();
+        }
+    }
+}
