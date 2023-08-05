@@ -1,0 +1,26 @@
+OUTPUT: program 13
+00001
+00010
+00100
+01000
+10000
+
+class Pattern_13 {
+    public static void main(String[] args) {
+        System.out.println("program 13");
+        int n=5,i,j,num=n;
+        for(i=1;i<=n;i++)
+        {
+            for(j=1;j<=n;j++)
+            {
+                if(j==num)
+                System.out.print("1");
+                else
+                System.out.print("0");
+            }
+            num--;
+            System.out.println();
+        }
+
+    }
+}
