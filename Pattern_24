@@ -1,0 +1,22 @@
+OUTPUT: Pattern 24:
+15 14 13 12 11 
+10 9 8 7 
+6 5 4 
+3 2 
+1
+
+class Pattern_24 {
+    public static void main(String[] args) {
+        System.out.println("Pattern 24:");
+          int n=5,i,j,k=15;              // given line(n)=5 then we can find k(number)=15 using loop since n=5 (1+2+3+4+5=15)   done in program Pattern_25 
+                                    //    given n=15 then we can find in which line 15 will be present in this case it is in line 5 it is done using loop since
+                     // n=15 (1+2+3+4+5=15 & if sum==n stop if we print last added number/iteration in this case 5 then line number is 5) done in program Pattern_26
+       
+        for(i=1;i<=n;i++)
+        {
+            for(j=i;j<=n;j++)
+               System.out.print(k-- +" ");
+            System.out.println();
+        }
+    }
+}
