@@ -1,0 +1,29 @@
+OUTPUT:  Pattern 27:           // for easy understanding check Pattern_24, Pattern_25, Pattern_26
+11 12 13 14 15 
+7 8 9 10 
+4 5 6 
+2 3 
+1 
+
+class Pattern_27 {
+    public static void main(String[] args) {
+       int n=15,i,j,sum,line;
+        System.out.println("Pattern 27");
+     while(n>=1)
+      {
+        sum=0;
+        line=1;
+        while(sum!=n)
+        {
+            sum=sum+line;
+            line++;                              // 6   //5    //4
+        }                                                     //but the actual line is=  line-1;
+        line=line-2;                             // 4   //3   //2
+        
+        for(j=n-(line);j<=n;j++)
+            System.out.print(j+" ");
+        System.out.println();
+        n=n-(line+1);                    // this line is for finding last term in the line so that it can be the next n value    //10  // 6 //3
+      }
+    }
+}
