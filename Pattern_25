@@ -1,0 +1,22 @@
+Output:
+Number Finding With Help Of Line
+Number:  15
+(15 14 13 12 11       // for this sum only we are finding the first number present in a particular line for further explanation check Pattern_24
+10 9 8 7                                             // we may use this concept in Patter_26 
+6 5 4 
+3 2              
+1 )
+
+class Pattern_25 {
+    public static void main(String[] args) {
+        System.out.println("Number Finding With Help Of Line");
+        int line=5,n,sum=0,i=1;
+        
+        while(i<=line)
+        {
+            sum+=i;
+            i++;
+        }
+        System.out.println("Number:  "+sum);
+    }
+}
